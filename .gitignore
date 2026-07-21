@@ -1,0 +1,26 @@
+﻿# Dependencies
+node_modules/
+
+# VuePress
+src/.vuepress/.cache
+src/.vuepress/.temp
+src/.vuepress/dist
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Claude
+.claude

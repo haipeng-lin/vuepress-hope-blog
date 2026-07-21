@@ -1,0 +1,64 @@
+/* 自定义样式 */
+
+/* 渐变导航栏背景 */
+.vp-nav-bar {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+/* 卡片悬浮效果 */
+.VPFeature {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.VPFeature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+/* 暗色模式适配 */
+html.dark .VPFeature:hover {
+  box-shadow: 0 10px 30px rgba(167, 139, 250, 0.3);
+}
+
+/* Hero 区域优化 */
+.VPHero .name {
+  font-size: 4rem !important;
+  font-weight: 700 !important;
+}
+
+.VPHero .tagline {
+  font-size: 1.5rem !important;
+  opacity: 0.8;
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 代码块样式优化 */
+div[class*="language-"] {
+  border-radius: 12px;
+}
+
+/* 侧边栏链接动画 */
+.VPSidebarItem .item .link {
+  transition: all 0.2s ease;
+}
+
+.VPSidebarItem .item .link:hover {
+  color: #667eea;
+  padding-left: 8px;
+}
+
+/* 特色卡片图标大小 */
+.VPFeature .icon {
+  font-size: 2.5rem;
+}
+
+/* 特色卡片标题 */
+.VPFeature .title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
