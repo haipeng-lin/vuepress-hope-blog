@@ -84,6 +84,14 @@ export const theme = hopeTheme({
                   </p>`,
   },
 
+  metaLocales: {
+    editLink: "在 GitHub 上编辑此页",
+  },
+
+  contributors: true,
+  lastUpdated: true,
+  article: false,
+
   footer: "© Copyright 2024-2026 All Rights Reserved. 版权所有者：𝙝𝙖𝙥𝙥𝙮𝙝𝙖𝙞",
 
   markdown: {

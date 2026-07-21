@@ -9,14 +9,16 @@
     "docs:clean-dev": "vuepress dev src --clean-cache --clean-temp"
   },
   "devDependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
     "@vuepress/bundler-vite": "^2.0.0-rc.19",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.130",
     "sass-embedded": "^1.100.0",
     "vue": "^3.5.13",
     "vuepress": "^2.0.0-rc.19",
-    "vuepress-theme-hope": "2.0.0-rc.107",
-    "@amap/amap-jsapi-loader": "^1.0.1"
+    "vuepress-theme-hope": "2.0.0-rc.107"
   },
   "dependencies": {
     "twikoo": "^1.6.44"
-  }
+  },
+  "packageManager": "pnpm@10.32.1+sha512.a706938f0e89ac1456b6563eab4edf1d1faf3368d1191fc5c59790e96dc918e4456ab2e67d613de1043d2e8c81f87303e6b40d4ffeca9df15ef1ad567348f2be"
 }

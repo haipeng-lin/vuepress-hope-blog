@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { viteBundler } from "@vuepress/bundler-vite";
+import { slimsearchPlugin } from "@vuepress/plugin-slimsearch";
 import { theme } from "./theme";
 
 export default defineUserConfig({
@@ -40,5 +41,18 @@ export default defineUserConfig({
 
   theme,
 
-  plugins: [],
+  plugins: [
+    slimsearchPlugin({
+      // 全文搜索
+      indexContent: true,
+      // 自定义字段
+      customFields: [
+        {
+          name: "title",
+          getter: (page) => page.frontmatter.title,
+          formatter: "📁 $content",
+        },
+      ],
+    }),
+  ],
 });

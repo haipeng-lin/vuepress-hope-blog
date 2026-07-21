@@ -1,7 +1,10 @@
 ---
-title: SpringBoot集成ShardingSphere.md
+title: SpringBoot集成ShardingSphere
 date: 2026/07/04
 category: SpringBoot
+tag:
+  - 分库分表
+  - 消息中间件
 ---
 
 ## 前言

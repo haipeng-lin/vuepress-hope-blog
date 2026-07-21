@@ -2,6 +2,9 @@
 title: SpringBoot集成RabbitMQ
 date: 2026/01/01
 category: SpringBoot
+tag:
+  - RabbitMQ
+  - 消息中间件
 ---
 
 ## 环境配置

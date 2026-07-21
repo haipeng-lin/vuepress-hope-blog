@@ -1,6 +1,7 @@
 ---
 title: MongoDB
 date: 2025/06/01
+article: false
 ---
 
 ## 介绍

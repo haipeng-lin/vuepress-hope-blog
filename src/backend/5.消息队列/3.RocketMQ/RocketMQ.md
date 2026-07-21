@@ -1,6 +1,7 @@
 ---
 title: RocketMQ
 date: 2025/01/25
+article: false
 ---
 
 ## 1.RocketMQ 特点

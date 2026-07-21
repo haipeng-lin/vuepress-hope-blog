@@ -2,6 +2,9 @@
 title: SpringBoot集成MQTT
 date: 2026/01/01
 category: SpringBoot
+tag:
+  - MQTT
+  - 消息中间件
 ---
 
 ## 环境配置

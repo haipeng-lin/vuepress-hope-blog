@@ -1,6 +1,7 @@
 ---
 title: 轻量级日志：loki+grafana
 date: 2025/09/25
+article: false
 ---
 
 ## 前言
