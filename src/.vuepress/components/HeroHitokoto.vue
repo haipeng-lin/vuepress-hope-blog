@@ -170,7 +170,7 @@ onMounted(() => {
     max-width: 80vw;
     position: relative;
     display: inline-block;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: normal;
     font-family: "PR", serif;
 

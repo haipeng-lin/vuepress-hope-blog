@@ -1,6 +1,6 @@
 ---
 title: SpringBoot集成MQTT
-date: 2026/01/01
+date: 2026-01-01
 category: SpringBoot
 tag:
   - MQTT

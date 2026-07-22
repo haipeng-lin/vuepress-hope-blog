@@ -1,6 +1,6 @@
 ---
 title: Certbot工具配置ssl证书
-date: 2025/12/04
+date: 2025-12-04
 category: 部署
 tag:
   - ssl

@@ -1,6 +1,6 @@
 ---
 title: Java8升级为Java17
-date: 2025/09/25
+date: 2025-09-25
 tags:
   - Java
   - 版本升级

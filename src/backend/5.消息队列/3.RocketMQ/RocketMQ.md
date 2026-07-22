@@ -1,6 +1,6 @@
 ---
 title: RocketMQ
-date: 2025/01/25
+date: 2025-01-25
 article: false
 ---
 

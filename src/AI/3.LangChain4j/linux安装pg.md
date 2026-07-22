@@ -1,6 +1,6 @@
 ---
 title: Linux安装PostgreSQL
-date: 2025/12/04
+date: 2025-12-04
 article: false
 
 cover: https://img.haipeng-lin.cn/20251214223315.png

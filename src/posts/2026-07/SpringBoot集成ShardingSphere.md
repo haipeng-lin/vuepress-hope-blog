@@ -1,6 +1,6 @@
 ---
 title: SpringBoot集成ShardingSphere
-date: 2026/07/04
+date: 2026-07-04
 category: SpringBoot
 tag:
   - 分库分表

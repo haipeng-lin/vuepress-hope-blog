@@ -1,10 +1,8 @@
 ---
-permalink: /about-me/
-aside: false
-copyright: false
-comment: false
+home: true
+heroText: false
+tagline: false
 article: false
-title: 𝙝𝙖𝙥𝙥𝙮𝙝𝙖𝙞的自述
 ---
 
 <div class="talk-container">
@@ -20,7 +18,7 @@ title: 𝙝𝙖𝙥𝙥𝙮𝙝𝙖𝙞的自述
 			</div>
 		</div>
 		<div class="profile-info">
-			<h3 class="profile-name">在逃的竹仔鱼(𝙝𝙖𝙥𝙥𝙮𝙝𝙖𝙞)</h3>
+			<h3 class="profile-name">𝙝𝙖𝙥𝙥𝙮𝙝𝙖𝙞</h3>
 			<p class="profile-motto">"保持热爱，奔赴山海"</p>
 			<div class="profile-details">
 				<div class="profile-detail-item">

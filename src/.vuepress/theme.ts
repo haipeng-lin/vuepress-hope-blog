@@ -15,6 +15,7 @@ export const theme = hopeTheme({
   navbar: [
     { text: "随笔", link: "/posts/", icon: "blog" },
     { text: "后端", link: "/backend/", icon: "code" },
+    { text: "前端", link: "/frontend/", icon: "laptop-code" },
     { text: "AI应用", link: "/AI/", icon: "fa fa-robot" },
     {
       text: "备忘录",
@@ -68,6 +69,7 @@ export const theme = hopeTheme({
   sidebar: {
     "/AI/": "structure",
     "/backend/": "structure",
+    "/frontend/": "structure",
     "/database/": "structure",
     "/note/": "structure",
     "/middleware/": "structure",
@@ -90,12 +92,17 @@ export const theme = hopeTheme({
 
   contributors: true,
   lastUpdated: true,
-  article: false,
 
   footer: "© Copyright 2024-2026 All Rights Reserved. 版权所有者：𝙝𝙖𝙥𝙥𝙮𝙝𝙖𝙞",
 
   markdown: {
     component: true,
+    footnote: true,
+    tasklist: true,
+    sup: true,
+    sub: true,
+    chartjs: true,
+    mermaid: true,
   },
 
   displayFooter: true,
@@ -107,21 +114,6 @@ export const theme = hopeTheme({
       provider: "Twikoo",
       envId: "https://twikoo.haipeng-lin.cn",
       region: "ap-guangzhou",
-    },
-
-    mdEnhance: {
-      container: true,
-      codeblock: {
-        theme: "one-dark-pro",
-        lineNumbers: true,
-      },
-      footnote: true,
-      tasklist: true,
-      mermaid: true,
-      chart: true,
-      sub: true,
-      sup: true,
-      vPre: true,
     },
   },
 });

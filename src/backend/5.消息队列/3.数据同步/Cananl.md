@@ -1,6 +1,6 @@
 ---
 title: Cananl
-date: 2024/10/16
+date: 2024-10-16
 article: false
 ---
 
