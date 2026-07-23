@@ -38,32 +38,6 @@ export const theme = hopeTheme({
         { text: "足迹", link: "/more/foot-map/", icon: "fa fa-map-marked-alt" },
       ],
     },
-    {
-      text: "好玩",
-      icon: "fa fa-gamepad",
-      children: [
-        {
-          text: "相册馆",
-          link: "https://picture.haipeng-lin.cn",
-          icon: "fa fa-images",
-        },
-        {
-          text: "音乐馆",
-          link: "https://music.haipeng-lin.cn",
-          icon: "fa fa-music",
-        },
-        {
-          text: "烟花秀",
-          link: "https://firework.haipeng-lin.cn",
-          icon: "fa fa-fire",
-        },
-        {
-          text: "站点监测",
-          link: "https://status.haipeng-lin.cn",
-          icon: "fa fa-server",
-        },
-      ],
-    },
   ],
 
   sidebar: {
