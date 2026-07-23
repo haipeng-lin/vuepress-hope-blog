@@ -1,0 +1,82 @@
+{
+  "locations": [
+    {
+      "name": "清远",
+      "coordinates": "113.0505994,23.6832984",
+      "date": "2023",
+      "description": "七天的三下乡旅程",
+      "categories": ["旅行"],
+      "markerColor": "sunset",
+      "photos": ["https://cdn.haipeng-lin.cn/20251206212719.png"]
+    },
+    {
+      "name": "佛山",
+      "coordinates": "113.122717,23.028762",
+      "date": "2023",
+      "description": "祖庙",
+      "categories": ["旅行"],
+      "markerColor": "sunset",
+      "photos": [
+        "https://cdn.haipeng-lin.cn/20251206213302.png",
+        "https://cdn.haipeng-lin.cn/20251206213246.png"
+      ]
+    },
+    {
+      "name": "广州",
+      "coordinates": "113.2592945,23.1301964",
+      "date": "2021-2025",
+      "description": "第二家乡，大学生活和打工历程",
+      "categories": ["生活"],
+      "markerColor": "ocean",
+      "photos": [
+        "https://cdn.haipeng-lin.cn/20251206212054.png",
+        "https://cdn.haipeng-lin.cn/20251206212114.png"
+      ]
+    },
+    {
+      "name": "南昌",
+      "coordinates": "115.8540042,28.687547",
+      "date": "2025-05-15/16",
+      "description": "超级好吃的南昌拌粉、好看的滕王阁",
+      "categories": ["旅行"],
+      "markerColor": "sunset",
+      "photos": [
+        "https://cdn.haipeng-lin.cn/20251016000222.png",
+        "https://cdn.haipeng-lin.cn/20251016000206.png"
+      ]
+    },
+    {
+      "name": "深圳",
+      "coordinates": "114.0545429,22.5445741",
+      "date": "2025",
+      "description": "实习 - 印象：物价死贵、房东坑人",
+      "categories": ["生活"],
+      "markerColor": "ocean",
+      "photos": ["https://cdn.haipeng-lin.cn/20251002162126.png"]
+    },
+    {
+      "name": "萍乡",
+      "coordinates": "113.8830806,27.6603206",
+      "date": "2025-05-18",
+      "description": "武功山 - 第一次爬1500的小山峰",
+      "categories": ["旅行"],
+      "markerColor": "sunset",
+      "photos": [
+        "https://cdn.haipeng-lin.cn/20251123220552.png",
+        "https://cdn.haipeng-lin.cn/20251123220722.png"
+      ]
+    },
+    {
+      "name": "珠海",
+      "coordinates": "113.5721327,22.273734",
+      "date": "2025",
+      "description": "实习 - 很宜居、适合旅游的城市",
+      "categories": ["生活"],
+      "markerColor": "ocean",
+      "photos": [
+        "https://cdn.haipeng-lin.cn/20251127000651.png",
+        "https://cdn.haipeng-lin.cn/20251127000655.png"
+      ]
+    }
+  ]
+}

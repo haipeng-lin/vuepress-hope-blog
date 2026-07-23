@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 export const theme = hopeTheme({
-  logo: "/images/avatar.webp",
+  logo: "/assets/images/avatar.webp",
   hostname: "https://haipeng-lin.cn",
   author: "𝙝𝙖𝙥𝙥𝙮𝙝𝙖𝙞",
   darkmode: "toggle",

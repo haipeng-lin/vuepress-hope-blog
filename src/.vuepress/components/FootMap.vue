@@ -1,9 +1,5 @@
 <template>
-    <div
-        class="footprint-map"
-        :data-json="dataUrl"
-        :data-amap-key="amapKey"
-    ></div>
+    <div class="footprint-map" :data-json="dataUrl" :data-amap-key="amapKey"></div>
 </template>
 
 <script setup>
@@ -16,7 +12,7 @@ const props = defineProps({
     },
     dataUrl: {
         type: String,
-        default: "/data/footprints.json",
+        default: "/assets/data/footprints.json",
     },
     highlightMode: {
         type: String,
