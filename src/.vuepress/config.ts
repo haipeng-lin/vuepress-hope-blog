@@ -15,7 +15,7 @@ export default defineUserConfig({
         rel: "icon",
         type: "image/png",
         size: "32x32",
-        href: "/images/avatar.webp",
+        href: "/assets/images/avatar.webp",
       },
     ],
     [
