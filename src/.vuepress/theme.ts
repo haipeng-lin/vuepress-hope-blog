@@ -56,7 +56,7 @@ export const theme = hopeTheme({
                   <p style="text-align: left; text-indent: 2rem;">哈喽，很幸运遇见你。我叫𝙝𝙖𝙥𝙥𝙮𝙝𝙖𝙞👋, 是一名已工作一年多的全栈工程师社畜, 现阶段正在研究领域为AI与旅游相结合的领域🌈</p>
                   <p style="text-align: left; text-indent: 2rem;">2025年于<a href="https://www.zhku.edu.cn/" target="_blank">仲恺农业工程学院</a>取得计算机科学与技术学士学位。四年仲园时光，宝贵，难忘，怀念。</p>
                   <p style="text-align: left;"><span style="text-indent: 2rem;">微信: happyhai</span><br />
-                  <span style="text-indent: 2rem;">邮箱: haipeng-lin@163.com</span>
+                  <span style="text-indent: 2rem;">邮箱: haipeng_lin@163.com</span>
                   </p>`,
   },
 
