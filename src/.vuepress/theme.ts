@@ -5,8 +5,8 @@ export const theme = hopeTheme({
   hostname: "https://haipeng-lin.cn",
   author: "𝙝𝙖𝙥𝙥𝙮𝙝𝙖𝙞",
   darkmode: "toggle",
-  repo: "https://github.com/haipeng-lin/vuepress-hope-blog",
-  docsRepo: "https://github.com/haipeng-lin/vuepress-hope-blog",
+  // repo: "https://github.com/haipeng-lin/vuepress-hope-blog",
+  // docsRepo: "https://github.com/haipeng-lin/vuepress-hope-blog",
   docsBranch: "main",
   docsDir: "src",
 

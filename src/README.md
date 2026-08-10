@@ -28,8 +28,8 @@ projects:
     desc: 本站的发展历程
     link: /about/
     icon: /assets/images/avatar.webp
-  - name: Vuepress-Hope
-    desc: Hope主题
-    link: https://github.com/haipeng-lin/vuepress-hope-blog
-    icon: https://theme-hope-assets.vuejs.press/logo.svg
+  # - name: Vuepress-Hope
+  #   desc: Hope主题
+  #   link: https://github.com/haipeng-lin/vuepress-hope-blog
+  #   icon: https://theme-hope-assets.vuejs.press/logo.svg
 ---
