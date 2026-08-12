@@ -8,6 +8,7 @@ const HeroHitokoto = defineAsyncComponent(
 );
 const Movie = defineAsyncComponent(() => import("./components/Movie.vue"));
 const Poem = defineAsyncComponent(() => import("./components/Poem.vue"));
+const Essay = defineAsyncComponent(() => import("./components/Essay.vue"));
 
 export default defineClientConfig({
   setup() {
@@ -26,6 +27,7 @@ export default defineClientConfig({
   enhance: ({ app, router, siteData }) => {
     app.component("FootMap", FootMap);
     app.component("Movie", Movie);
-    app.component("Poem", Poem);
+    app.component("Movie", Movie);
+    app.component("Essay", Essay);
   },
 });
