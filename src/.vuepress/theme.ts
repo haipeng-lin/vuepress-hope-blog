@@ -12,20 +12,43 @@ export const theme = hopeTheme({
 
   iconAssets: "fontawesome",
 
+  sidebarSorter: "filename",
+
   navbar: [
     { text: "随笔", link: "/posts/", icon: "blog" },
     { text: "后端", link: "/backend/", icon: "code" },
     { text: "前端", link: "/frontend/", icon: "laptop-code" },
-    { text: "AI应用", link: "/AI/", icon: "fa fa-robot" },
+    {
+      text: "AI框架",
+      icon: "fa fa-robot",
+      children: [
+        {
+          text: "LangChain4j",
+          link: "/AI/LangChain4j/",
+        },
+        {
+          text: "SpringAI",
+          link: "/AI/SpringAI/",
+        },
+        {
+          text: "SpringAI Alibaba",
+          link: "/AI/SpringAI Alibaba/",
+        },
+        {
+          text: "智能体",
+          link: "/AI/智能体/",
+        },
+      ],
+    },
     {
       text: "备忘录",
       icon: "book",
       children: [
-        { text: "部署", link: "/note/5.deploy.html" },
-        { text: "Docker", link: "/note/3.Docker.html" },
         { text: "Git", link: "/note/1.Git.html" },
         { text: "Linux", link: "/note/2.Linux.html" },
+        { text: "Docker", link: "/note/3.Docker.html" },
         { text: "Maven", link: "/note/4.Maven.html" },
+        { text: "部署", link: "/note/5.deploy.html" },
         { text: "Nginx", link: "/note/6.Nginx.html" },
       ],
     },
@@ -41,12 +64,32 @@ export const theme = hopeTheme({
   ],
 
   sidebar: {
-    "/AI/": "structure",
     "/backend/": "structure",
     "/frontend/": "structure",
     "/database/": "structure",
     "/note/": "structure",
     "/middleware/": "structure",
+    "/AI/工作流/": "structure",
+    "/AI/智能体/": "structure",
+    "/AI/AgentScope Java/": "structure",
+    "/AI/LangChain4j/": "structure",
+    "/AI/SpringAI/": "structure",
+    "/AI/SpringAI Alibaba/": [
+      {
+        text: "基础篇",
+        prefix: "1.基础篇/",
+        collapsible: true,
+        expanded: true,
+        children: ["1.概述", "2.模型", "3.RAG", "4.Agents"],
+      },
+      {
+        text: "高级功能",
+        prefix: "2.高级功能/",
+        collapsible: true,
+        expanded: true,
+        children: ["1.上下文工程", "2.人工介入", "3.Graph图"],
+      },
+    ],
   },
 
   blog: {
