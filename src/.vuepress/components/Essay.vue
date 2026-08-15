@@ -1,19 +1,18 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from 'vue';
 
-// 示例数据
-const essays = ref([
-    {
-        id: 1,
-        text: "即将绝版的“猫猫头”地铁站。",
-        images: [
-            "https://img.haipeng-lin.cn/1786527486990.webp",
-            "https://img.haipeng-lin.cn/1786527612452.webp",
-        ],
-        date: "2026-8-9",
-        location: "广州",
-    },
-]);
+// 数据
+const essays = ref([]);
+
+// 从 JSON 文件加载数据
+onMounted(async () => {
+    try {
+        const response = await fetch('/assets/data/essays.json');
+        essays.value = await response.json();
+    } catch (error) {
+        console.error('加载短文数据失败:', error);
+    }
+});
 </script>
 
 <template>
