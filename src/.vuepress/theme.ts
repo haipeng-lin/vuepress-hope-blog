@@ -80,7 +80,7 @@ export const theme = hopeTheme({
         prefix: "1.基础篇/",
         collapsible: true,
         expanded: true,
-        children: ["1.概述", "2.模型", "3.RAG", "4.Agents"],
+        children: ["1.概述", "2.模型", "3.RAG", "4.Agents", "5.动态Prompt"],
       },
       {
         text: "高级功能",
