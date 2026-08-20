@@ -8,6 +8,10 @@ heroText: 愿为江水 与君重逢
 bgImage: https://cdn.haipeng-lin.cn/1784681747002.jpg
 heroFullScreen: false
 projects:
+  - name: 碎碎念
+    desc: 唠唠叨叨
+    link: /essay/
+    icon: fa fa-feather
   - name: 相册馆
     desc: 照片墙
     link: https://picture.haipeng-lin.cn

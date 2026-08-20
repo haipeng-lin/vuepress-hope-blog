@@ -14,6 +14,10 @@ head:
       content: codeva-wyHhajg1iV
 ---
 
+### 2026-08
+
+- [2026-08-15 AI 扫盲](2026-08/AI扫盲.md)
+
 ### 2026-07
 
 - [2026-07-04 SpringBoot 集成 ShardingSphere](2026-07/SpringBoot集成ShardingSphere.md)
