@@ -39,5 +39,25 @@
     ],
     "date": "2026-3-8",
     "location": "广州"
+  },
+  {
+    "text": "夏天的白云、晚霞永远不会迟到",
+    "images": [
+      "https://cdn.haipeng-lin.cn/1787328495.png",
+      "https://cdn.haipeng-lin.cn/1787328510.png"
+    ],
+    "date": "2025-6-6",
+    "location": "珠海"
+  },
+  {
+    "text": "“海风叮嘱我要热爱这个世界”",
+    "images": [
+      "https://cdn.haipeng-lin.cn/1787329263.png",
+      "https://cdn.haipeng-lin.cn/1787329376.png",
+      "https://cdn.haipeng-lin.cn/1787329441.png",
+      "https://cdn.haipeng-lin.cn/1787329475.png"
+    ],
+    "date": "2025-3-8",
+    "location": "深圳"
   }
 ]
