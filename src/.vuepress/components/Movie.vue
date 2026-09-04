@@ -66,6 +66,48 @@ import { ref } from "vue";
 // 电影列表
 const movieList = ref([
     {
+        title: "洛杉矶劫案",
+        poster: "https://img.haipeng-lin.cn/1788491823859.png",
+        score: 5,
+        date: "2026-9-1",
+        status: "BGM超绝",
+    },
+    {
+        title: "挽救计划",
+        poster: "https://img.haipeng-lin.cn/1788491883714.png",
+        score: 5,
+        date: "2026-8-30",
+        status: "已看",
+    },
+    {
+        title: "火遮眼",
+        poster: "https://img.haipeng-lin.cn/1788492033121.png",
+        score: 4.5,
+        date: "2026-8-24",
+        status: "已看",
+    },
+    {
+        title: "欢迎来龙餐馆",
+        poster: "https://img.haipeng-lin.cn/1788492416228.png",
+        score: 5,
+        date: "2026-8-22",
+        status: "好看",
+    },
+    {
+        title: "消失的人",
+        poster: "https://img.haipeng-lin.cn/1788491942032.png",
+        score: 4,
+        date: "2026-8-1",
+        status: "已看",
+    },
+    {
+        title: "浮城大亨",
+        poster: "https://img.haipeng-lin.cn/1788493050058.png",
+        score: 5,
+        date: "2026-6-25",
+        status: "已看",
+    },
+    {
         title: "熊出没·年年有熊",
         poster: "https://img.haipeng-lin.cn/1781157018744.png",
         score: 5,
