@@ -88,6 +88,7 @@ export const theme = hopeTheme({
           "5.RAG",
           "6.RAG-ElasticSearch",
           "7.Skills",
+          "8.MCP",
           "11.Agents",
         ],
       },
