@@ -66,6 +66,13 @@ import { ref } from "vue";
 // 电影列表
 const movieList = ref([
     {
+        title: "降临",
+        poster: "https://img.haipeng-lin.cn/1789115353001.png",
+        score: 5,
+        date: "2026-9-10",
+        status: "已看",
+    },
+    {
         title: "洛杉矶劫案",
         poster: "https://img.haipeng-lin.cn/1788491823859.png",
         score: 5,
