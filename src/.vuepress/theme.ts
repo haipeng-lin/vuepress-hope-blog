@@ -84,7 +84,20 @@ export const theme = hopeTheme({
         prefix: "1.基础篇/",
         collapsible: true,
         expanded: true,
-        children: ["1.快速入门", "2.智能体", "3.模型", "6.Middleware"],
+        children: [
+          "1.快速入门",
+          "2.智能体",
+          "3.模型",
+          "4.工具",
+          "6.Middleware",
+        ],
+      },
+      {
+        text: "Harness篇",
+        prefix: "1.Harness篇/",
+        collapsible: true,
+        expanded: true,
+        children: ["2.上下文压缩", "3.工作区", "8.Skill"],
       },
     ],
     "/AI/SpringAI Alibaba/": [
