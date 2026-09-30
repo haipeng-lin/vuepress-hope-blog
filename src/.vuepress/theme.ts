@@ -96,7 +96,7 @@ export const theme = hopeTheme({
         prefix: "1.Harness篇/",
         collapsible: true,
         expanded: true,
-        children: ["2.上下文压缩", "3.工作区", "8.Skill"],
+        children: ["2.上下文压缩", "3.工作区", "4.文件系统", "8.Skill"],
       },
     ],
     "/AI/SpringAI Alibaba/": [
