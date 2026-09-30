@@ -93,7 +93,7 @@ export const theme = hopeTheme({
       },
       {
         text: "Harness篇",
-        prefix: "1.Harness篇/",
+        prefix: "2.Harness篇/",
         collapsible: true,
         expanded: true,
         children: ["2.上下文压缩", "3.工作区", "4.文件系统", "8.Skill"],
