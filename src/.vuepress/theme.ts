@@ -75,7 +75,6 @@ export const theme = hopeTheme({
     "/middleware/": "structure",
     "/AI/工作流/": "structure",
     "/AI/智能体/": "structure",
-    "/AI/AgentScope Java/": "structure",
     "/AI/LangChain4j/": "structure",
     "/AI/SpringAI/": "structure",
     "/AI/AgentScope Java": [
