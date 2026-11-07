@@ -66,6 +66,20 @@ import { ref } from "vue";
 // 电影列表
 const movieList = ref([
     {
+        title: "功夫女足",
+        poster: "https://img.haipeng-lin.cn/1791431604215.png",
+        score: 5,
+        date: "2026-10-06",
+        status: "已看",
+    },
+    {
+        title: "阿嬷的情书",
+        poster: "https://img.haipeng-lin.cn/1791431658931.png",
+        score: 5,
+        date: "2026-10-01",
+        status: "已看",
+    },
+    {
         title: "年会不能停",
         poster: "https://img.haipeng-lin.cn/1789876313886.png",
         score: 5,
