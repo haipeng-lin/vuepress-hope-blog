@@ -22,25 +22,29 @@ export const theme = hopeTheme({
       text: "AI框架",
       icon: "fa fa-robot",
       children: [
+       {
+          text: "LangChain",
+          link: "/AI/LangChain/1.快速开始.html",
+        },
         {
           text: "AgentScope Java",
-          link: "/AI/AgentScope Java/",
+          link: "/AI/AgentScope Java/1.基础篇/1.快速入门.html",
         },
         {
           text: "SpringAI Alibaba",
-          link: "/AI/SpringAI Alibaba/",
+          link: "/AI/SpringAI Alibaba/1.基础篇/1.概述.html",
         },
         {
           text: "LangChain4j",
-          link: "/AI/LangChain4j/",
+          link: "/AI/LangChain4j/1.基础篇.html",
         },
         {
           text: "SpringAI",
-          link: "/AI/SpringAI/",
+          link: "/AI/SpringAI/1.基础篇.html",
         },
         {
           text: "智能体",
-          link: "/AI/智能体/",
+          link: "/AI/智能体/1.Claude Code.html",
         },
       ],
     },
@@ -76,6 +80,7 @@ export const theme = hopeTheme({
     "/AI/工作流/": "structure",
     "/AI/智能体/": "structure",
     "/AI/LangChain4j/": "structure",
+    "/AI/LangChain/": "structure",
     "/AI/SpringAI/": "structure",
     "/AI/AgentScope Java": [
       {
